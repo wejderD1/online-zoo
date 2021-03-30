@@ -1,0 +1,55 @@
+body{
+    width: 1960px;
+    height: auto;
+    margin: 0 auto;
+
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: 0 260px;
+}
+
+.header-inner, .menu{
+    display: flex;
+    align-items: center;
+}
+
+
+/* MENU */
+.menu__item{
+    padding: 0 24px;
+    list-style: none;
+}
+
+.menu__link{
+    line-height: 150%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu__link_active, .menu__link_header:hover{
+    color: #00A092;
+}
+
+/* SOCIAL */
+.social__link:nth-child(1){
+    margin-left: 35px;
+}
+
+.social__link:nth-child(2){
+    margin: 0 30px;
+}
+
+
+/* MAIN */
+.main__inner{
+    padding: 130px 0;
+    background: url(../assets/images/first/Background.png);
+    background-size: 100% auto;
+}
+
+
+/* WATCH FAVORITE */
+

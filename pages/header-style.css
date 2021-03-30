@@ -1,0 +1,11 @@
+#header{
+    width: 100%;
+    height: auto;
+
+    padding: 30px 0;
+    background: #F58021;
+}
+
+.header-inner{
+    justify-content: space-between;
+}
