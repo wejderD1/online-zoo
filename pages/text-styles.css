@@ -1,32 +1,83 @@
-.color-black{
+.color-black {
     color: black;
 }
 
-.color-white{
+.color-white {
     color: #fff;
 }
 
-.color-turquise{
-    color: #00A092;
+.color-turquise {
+    color: #00a092;
 }
 
-.color-orange{
-   color: #F58021;
+.color-orange {
+    color: #f58021;
 }
 
-.f-18{
-    font-size: 18px;
-}
-
-f-24{
-    font-size: 24px;
-}
-
-f-54{
-    font-size: 54px;
-}
-
-f-82{
+.h1 {
+    margin: 0;
+    font-weight: 800;
     font-size: 82px;
+    line-height: 100px;
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
 }
 
+.h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+
+    text-transform: uppercase;
+}
+
+.subheader {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+}
+
+.body-text{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.btn-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-transform: uppercase;
+}
+
+/* media 320 
+.h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.h2{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+   
+*/

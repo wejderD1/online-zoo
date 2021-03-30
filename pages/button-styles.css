@@ -1,0 +1,37 @@
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 26px 0;
+
+    height: 74px;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.btn_bg-orange {
+    background: #f58021;
+}
+
+.btn_bg-orange:hover {
+    background: #D26004;
+}
+
+.btn_bg-turquise {
+    background: #00a092;
+}
+
+/* BUTTON-SIZE */
+.btn_240 {
+    width: 240px;
+}
+
+.btn_359 {
+    width: 359px;
+}

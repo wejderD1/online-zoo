@@ -3,7 +3,6 @@ body{
     height: auto;
     margin: 0 auto;
 
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -33,6 +32,10 @@ body{
     color: #00A092;
 }
 
+.menu__link_active:hover{
+    cursor: move;
+}
+
 /* SOCIAL */
 .social__link:nth-child(1){
     margin-left: 35px;
@@ -44,21 +47,26 @@ body{
 
 
 /* MAIN */
+#main{
+    background: url(../assets/images/first/Background.png);
+    /* background-size: auto 100%; */
+}
+
 .main__inner{
     padding: 130px 0;
-    background: url(../assets/images/first/Background.png);
-    background-size: 100% auto;
+
 }
 
-.main__title{
+.main_title{
     display: inline-block;
     width: 890px;
-
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 99px;
 }
 
+
+.main_subtitle{
+    width: 430px;
+    padding: 50px 0;
+}
 
 /* WATCH FAVORITE */
 
