@@ -10,9 +10,9 @@ body{
     margin: 0 260px;
 }
 
-.header-inner, .menu, .welcome__item{
+.header-inner, .menu, .welcome__item, .donation__inner{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 
 
@@ -102,4 +102,26 @@ body{
 .empty_container{
     width: 100%;
     height: 150px; 
+}
+
+/* DONATION */
+.donation{
+    background: #20113D;
+    padding: 50px 0;
+}
+
+.donation__inner{
+    justify-content: space-between;
+}
+
+.donation_title{
+    padding-bottom: 20px;
+}
+
+.donation_text {
+    width: 609px;
+}
+
+.donation_subheader{
+    padding-bottom: 10px;
 }

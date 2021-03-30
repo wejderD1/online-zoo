@@ -34,6 +34,7 @@
 }
 
 .h3 {
+    margin: 0;
     font-weight: 500;
     font-size: 42px;
     line-height: 51px;
@@ -42,6 +43,7 @@
 }
 
 .subheader {
+    margin: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
