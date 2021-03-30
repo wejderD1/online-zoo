@@ -10,7 +10,7 @@ body{
     margin: 0 260px;
 }
 
-.header-inner, .menu, .welcome__item, .donation__inner{
+.header-inner, .menu, .welcome__item, .donation__inner, .card__container{
     display: flex;
     align-items: center;
 }
@@ -124,4 +124,72 @@ body{
 
 .donation_subheader{
     padding-bottom: 10px;
+}
+
+/* OUR PETS */
+
+.our-pets__inner{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.btn.our-pets__btn{
+    margin: 100px 0 150px 0;
+}
+
+.button-container{
+    padding: 50px 0;
+}
+
+.button-container .btn{
+    margin: 0 27px;
+}
+
+.card__container{
+    flex-direction: column;
+    margin-left: 240px;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+}
+
+.animal__card{
+    /* max-width: calc(100% / 4); */
+    width: 440px;
+    height: auto;
+    /* margin-right: 40px; */
+    background: #20113D;
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.animals-card__photo{
+    width: inherit;
+    height: auto;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subheader.card_subheader{
+    margin: 30px 0 20px 0;
+}
+
+.card_body-text{
+    padding: 0 30px 30px 30px;
+}
+
+.btn.card_btn{
+    margin-bottom: 50px;
+}
+
+.card__wrapper{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+
 }

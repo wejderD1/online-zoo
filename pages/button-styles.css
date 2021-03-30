@@ -12,6 +12,16 @@
     border: none;
     border-radius: 5px;
     text-align: center;
+
+    transition: all 0.2s linear;
+}
+
+.btn_color-orange{
+    color: #f58021;
+}
+
+.btn_color-navy{
+    color: #20113D;
 }
 
 .btn_bg-orange {
@@ -26,7 +36,16 @@
     background: #00a092;
 }
 
+.btn_bg-transparent {
+    background: transparent;
+}
+
 /* BUTTON-SIZE */
+.btn_60{
+    width: 60px;
+    height: 60px;
+}
+
 .btn_80{
     width: 80px;
 }
@@ -51,6 +70,19 @@
 
 .btn__border_white{
     border: 1px solid #FFFFFF;
+}
+
+.btn__border_navy{
+    border: 1px solid #20113D;
+}
+
+.btn__border_navy:hover{
+    background: #20113D;
+    color: #fff;
+}
+
+.btn__border_none{
+    border: none;
 }
 
 .right-arrow{
