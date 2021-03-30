@@ -50,6 +50,15 @@ body{
     background-size: 100% auto;
 }
 
+.main__title{
+    display: inline-block;
+    width: 890px;
+
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 99px;
+}
+
 
 /* WATCH FAVORITE */
 
