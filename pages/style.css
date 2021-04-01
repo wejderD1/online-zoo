@@ -10,7 +10,7 @@ body{
     margin: 0 260px;
 }
 
-.header-inner, .menu, .welcome__item, .donation__inner, .card__container{
+.header-inner, .menu, .welcome__item, .donation__inner, .card__container, .pay__item{
     display: flex;
     align-items: center;
 }
@@ -192,4 +192,52 @@ body{
     grid-column-gap: 40px;
     grid-row-gap: 40px;
 
+}
+
+/* PAY */
+.pay{
+    background: #20113D;
+}
+
+.pay__inner{
+    padding: 100px 0;
+}
+
+
+.subheader.pay_count{
+    position: relative;
+
+    margin: 100px 0 80px 0;
+}
+
+.pay_count:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    width: 90%;
+    border-top: 1px solid #FFFFFF;
+}
+
+.pay__item{
+    align-items: flex-start;
+}
+
+.pay__item .btn{
+    margin-top: 50px;
+}
+
+.pay_img{
+    padding: 0 160px 100px 0;
+}
+
+.pay_subheader{
+    padding: 30px 0 50px 0;
+}
+
+.pay_body-text{
+    width: 85%;
 }
