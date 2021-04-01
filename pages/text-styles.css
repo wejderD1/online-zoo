@@ -14,6 +14,10 @@
     color: #f58021;
 }
 
+.color-navy{
+    color: #20113D;
+}
+
 .h1 {
     margin: 0;
     font-weight: 800;
@@ -86,5 +90,11 @@
 
 .common_subheader{
     margin: 50px auto;
-    width: 920px;
+    width: 50%;
+}
+
+.common_h2{
+    width: 40%;
+    margin: 0 auto;
+
 }

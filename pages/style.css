@@ -15,7 +15,8 @@ body {
 .welcome__item,
 .donation__inner,
 .card__container,
-.pay__item {
+.pay__item,
+.footer__item {
     display: flex;
     align-items: center;
 }
@@ -136,7 +137,6 @@ body {
 }
 
 /* OUR PETS */
-
 .our-pets__inner {
     padding-top: 150px;
     text-align: center;
@@ -182,11 +182,11 @@ body {
 }
 
 .subheader.card_subheader {
-    margin: 30px 0 20px 0;
+    margin-top: 20px;
 }
 
 .card_body-text {
-    padding: 0 30px 30px 30px;
+    padding: 30px;
 }
 
 .btn.card_btn {
@@ -298,4 +298,90 @@ body {
 
 .testimonials__button{
     padding: 380px 0 150px 0;
+}
+
+/* CHOOSE */
+.choose__inner{
+    padding: 150px 0;
+    text-align: center;
+}
+
+.choose-img{
+    grid-area: big;
+}
+
+.choose-card{}
+
+.gr-1{
+    grid-area: gr-1;
+}
+.gr-2{
+    grid-area: gr-2;
+
+}
+.gr-3{
+    grid-area: gr-3;
+
+}
+.gr-4{
+    grid-area: gr-4;
+
+}
+
+.choose-animal__wrapper {
+    margin-left: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template: 
+        "big big gr-1"
+        "gr-2 gr-3 gr-4";
+    grid-template-rows: 1fr 1fr;
+
+    padding: 90px 0;
+}
+
+.choose_touch-photo{
+    margin-top: 150px;
+}
+
+
+/* FOOTER */
+#footer{
+    background: #20113d;
+}
+
+.footer__item{
+    position: relative;
+    justify-content: space-between;
+}
+
+.footer__item:nth-child(1){
+    padding: 70px 0;
+}
+
+.footer__item:nth-child(1):after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    content: "";
+    display: block;
+    width: 100%;
+    border-top: 1px #ffffff solid;
+    height: 0;
+}
+
+.footer__item:nth-child(2){
+    padding: 35px 0;
+}
+
+.logo img:nth-child(2){
+    margin: 0 65px;
+}
+
+.copyright_text {
+    display: inline;
+}
+
+.copyright_text:nth-child(2){
+    margin: 0 50px;
 }
