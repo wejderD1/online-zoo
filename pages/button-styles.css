@@ -16,12 +16,20 @@
     transition: all 0.2s linear;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 .btn_color-orange{
     color: #f58021;
 }
 
 .btn_color-navy{
     color: #20113D;
+}
+
+.btn_color-navy:hover{
+    color: #fff;
 }
 
 .btn_bg-orange {
@@ -68,6 +76,14 @@
     box-sizing: border-box;
 }
 
+.btn__border_white2{
+    border: 1px solid #FFFFFF;
+}
+
+.btn__border_white2:hover .btn_bg-orange{
+    background: #D26004;
+}
+
 .btn__border_white{
     border: 1px solid #FFFFFF;
 }
@@ -82,6 +98,10 @@
 
 .btn__border_navy:hover{
     background: #20113D;
+    color: #fff;
+}
+
+.btn__border_navy:hover .btn_color-navy{
     color: #fff;
 }
 
@@ -102,66 +122,14 @@
     margin: 0;
 }
 
-.btn_right-navy:after{
-    content: url(../assets/icons/right-navy-arrow.svg);
+.arrow{
+    width: 40px;
     height: 25px;
-    display: inline-block;
-    padding-left: 10px;
+    font-size: 25px;
 }
 
-.btn_right-navy:hover:after{
-    content: url(../assets/icons/right-white-arrow.svg);
-}
-
-.btn_left-navy:after{
-    content: url(../assets/icons/left-navy-arrow.svg);
-    height: 25px;
-    display: inline-block;
-    padding-left: 10px;
-}
-
-.btn_left-navy:hover:after{
-    content: url(../assets/icons/left-white-arrow.svg);
-}
-
-.btn_right-white:after{
-    content: url(../assets/icons/right-white-arrow.svg);
-    height: 25px;
-    display: inline-block;
-    padding-left: 10px;
-}
-
-.btn_right-orange:after{
-    content: url(../assets/icons/right-orange-arrow.svg);
-    height: 25px;
-    display: inline-block;
-    padding-left: 10px;
-}
-
-.btn_right-orange:hover:after{
-    content: url(../assets/icons/right-white-arrow.svg);
-
-}
-
-.btn__border_navy-none-padding_left:after{
-    content: url(../assets/icons/left-navy-arrow.svg);
-    height: 27px;
-    display: inline-block;
-    /* padding-left: 10px; */
-}
-
-.btn__border_navy-none-padding_left:hover:after{
-    content: url(../assets/icons/left-white-arrow.svg);
-}
-
-.btn__border_navy-none-padding_right:after{
-    content: url(../assets/icons/right-navy-arrow.svg);
-    height: 27px;
-    display: inline-block;
-    /* padding-left: 10px; */
-}
-
-.btn__border_navy-none-padding_right:hover:after{
-    content: url(../assets/icons/white-arrow.svg);
+.btn-navy-white:hover{
+    background-color: #fff;
+    color: #20113D;
 }
 
