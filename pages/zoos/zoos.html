@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../header-style.css">
+    <link rel="stylesheet" href="../text-styles.css">
+    <link rel="stylesheet" href="../button-styles.css">
+    <link rel="stylesheet" href="../zoos/zoos-style.css">
+    <link rel="shortcut icon" href="../../assets/icons/Favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c5ff43753.js" crossorigin="anonymous"></script>
+    <title>online-zoo</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="../../assets/icons/Logo.png" alt="logo">
+                </div>
+                <nav class="menu">
+                    <h1 class="hide" hidden>Online Zoo</h1>
+                    <li class="menu__item"><a href="#"
+                            class="menu__link menu__link_header menu__link_active f-18">about</a></li>
+                    <li class="menu__item"><a href="../map/map.html" class="menu__link menu__link_header f-18">map</a>
+                    </li>
+                    <li class="menu__item"><a href="../zoos/zoos.html"
+                            class="menu__link menu__link_header f-18">zoos</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link_header f-18">contact us</a></li>
+                    <li class="menu__item"><a
+                            href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project"
+                            class="menu__link menu__link_header f-18">design</a></li>
+                    <div class="social">
+                        <a href="http://youtube.com" class="social__link"><img src="../../assets/icons/YouTube.svg"
+                                alt="social-icon" srcset=""></a>
+                        <a href="https://www.instagram.com" class="social__link"><img
+                                src="../../assets/icons/Instagram.svg" alt="social-icon" srcset=""></a>
+                        <a href="https://www.facebook.com" class="social__link"><img
+                                src="../../assets/icons/Facebook.svg" alt="social-icon" srcset=""></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside></aside>
+        <section class="zoos-main">
+            <div class="container">
+                <div class="title-container">
+                    <h2 class="h2 color-turquise">live panda cams</h2>
+                    <button class="zoos-btn btn btn_bg-orange btn_240 btn-text">donate now<i
+                            class="arrow fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="player-container">
+                    <video controls poster="../../assets/images/zoos/Youtube player.png">
+                        <source src="../../assets/videos/panda.mp4">
+                    </video>
+                    <!-- <video src="https://www.youtube.com/watch?v=OObOQ2GElhA&ab_channel=ExploreBears%26Bison" -->
+                    <!-- poster="../../assets/images/zoos/Youtube player.png" controls></video> -->
+                    <!-- <img src="../../assets/images/zoos/Youtube player.png" alt="player"> -->
+                </div>
+            </div>
+        </section>
+        <div class="carousel">
+            <div class="container">
+                <h3 class="carousel_title h3">more live views</h3>
+                <div class="carousel__inner">
+                    <button class="carousel_btn carousel_btn_left btn btn_60 btn_bg-transparent btn-text"><i
+                            class="arrow btn_color-navy_zoom fas fa-arrow-left"></i>
+                    </button>
+                    <img class="carousel_item" src="../../assets/images/zoos/cam1.png" alt="cam">
+                    <img class="carousel_item" src="../../assets/images/zoos/cam2.png" alt="cam">
+                    <img class="carousel_item" src="../../assets/images/zoos/cam3.png" alt="cam">
+                    <button class="carousel_btn carousel_btn_right  btn btn_60 btn_bg-transparent btn-text"><i
+                            class="arrow btn_color-navy_zoom fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- DONATION -->
+        <section class="donation">
+            <div class="container">
+                <div class="donation__inner">
+                    <div class="dotation__item">
+                        <h3 class="donation_title h3 color-white">your donation makes a difference!</h3>
+                        <p class="donation_text body-text color-white">The Online Zoo's animal webcams are some of the
+                            most famous on the internet. Tune in to watch your favourite animals — live, 24/7! </p>
+                    </div>
+                    <div class="dotation__item">
+                        <h4 class="donation_subheader subheader color-white">Quick Donate</h4>
+                        <buton class="btn btn_320 btn__border btn__border_white2 btn-text " style="padding-left: 14px;">
+                            $ donation amount <button class="btn btn_bg-orange btn_80 btn-text"
+                                style="margin-right: -2px;"><i class="arrow fas fa-arrow-right"></i>
+                            </button>
+                        </buton>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INFO -->
+        <div class="zoos-info">
+            <div class="container">
+                <div class="zoos-info__inner">
+                    <div class="title-container title-container_box-shadow">
+                        <h2 class="h2 color-turquise">did you know?</h2>
+                        <p class="zoos-info_subheader subheader">Pandas are often seen eating in a relaxed sitting posture,
+                            with their hind legs stretched out before them. They may appear sedentary, but they are
+                            skilled tree-climbers and efficient swimmers.</p>
+                    </div>
+                    <div class="info">
+                        <div class="info__inner">
+                            <h4 class="info_subheader subheader">Common name:</h4><span class="body-text">Giant panda</span><br>
+                            <h4 class="info_subheader subheader">Scientific name:</h4><span class="body-text">Ailuropoda melanoleuca</span><br>
+                            <h4 class="info_subheader subheader">Type:</h4><span class="body-text">Herbivore</span><br>
+                            <h4 class="info_subheader subheader">Size:</h4><span class="body-text">4 to 5 feet</span><br>
+                            <h4 class="info_subheader subheader">Diet:</h4><span class="body-text">Omnivore</span><br>
+                            <h4 class="info_subheader subheader">Habital:</h4><span class="body-text">Forest</span><br>
+                            <h4 class="info_subheader subheader">Range:</h4><span class="body-text">Eastern Asia</span><button
+                            class="info_btn btn btn_bg-transparent btn__border_none btn_240 btn-text btn_color-orange">view
+                            map <i class="arrow fas fa-arrow-right"></i></button>
+                        </div>
+                        <img class="info-img" src="../../assets/images/zoos/panda-info.png" alt="info">
+                    </div>
+                    <p class="body-text">Giant pandas are very unusual animals that eat almost exclusively bamboo, which
+                        is very low in nutrients. Because of this, they have many unique adaptations for their
+                        low-energy lifestyle. Giant pandas are solitary. They have a highly developed sense of smell
+                        that males use to avoid each other and to find females for mating in the spring. After a
+                        five-month pregnancy, females give birth to a cub or two, though they cannot care for both
+                        twins. The blind infants weigh only 5 ounces at birth and cannot crawl until they reach three
+                        months of age. They are born white, and develop their much loved coloring later. Habitat loss is
+                        the primary threat to this species. Its popularity around the world has helped the giant panda
+                        become the focus of successful conservation programs. </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <div class="logo">
+                        <img src="../../assets/icons/Logo-white.svg" alt="logo">
+                        <img src="../../assets/icons/Yem Digital.svg" alt="logo">
+                        <img src="../../assets/icons/rs_school_js logo.svg" alt="logo">
+                    </div>
+                    <nav class="menu">
+                        <h1 class="hide" hidden>Online Zoo</h1>
+                        <li class="menu__item"><a href="../first.html"
+                                class="menu__link menu__link_header menu__link_active f-18 color-white">about</a></li>
+                        <li class="menu__item"><a href="../map/map.html"
+                                class="menu__link menu__link_header f-18 color-white">map</a>
+                        </li>
+                        <li class="menu__item"><a href="../zoos/zoos.html"
+                                class="menu__link menu__link_header f-18 color-white">zoos</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link menu__link_header f-18 color-white">contact
+                                us</a></li>
+                    </nav>
+                    <button class="btn btn-text btn_color-white btn_359 btn_bg-transparent btn__border_white"> donate
+                        four volunteers<i class="arrow fas fa-arrow-right"></i></button>
+                </div>
+                <div class="footer__item">
+                    <div class="copyright">
+                        <h4 class="copyright_text body-text color-white">&copy; 2021 Dinak</h4>
+                        <h4 class="copyright_text body-text color-white">&copy; 2021 Yem Digtal</h4>
+                        <h4 class="copyright_text body-text color-white">&copy; 2021 RSSchool</h4>
+                    </div>
+                    <div class="social">
+                        <a href="http://youtube.com" class="social__link"><img src="../../assets/icons/YouTube.svg"
+                                alt="social-icon" srcset=""></a>
+                        <a href="https://www.instagram.com" class="social__link"><img
+                                src="../../assets/icons/Instagram.svg" alt="social-icon" srcset=""></a>
+                        <a href="https://www.facebook.com" class="social__link"><img
+                                src="../../assets/icons/Facebook.svg" alt="social-icon" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

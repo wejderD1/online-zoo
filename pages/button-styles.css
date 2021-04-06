@@ -32,6 +32,14 @@
     color: #fff;
 }
 
+.btn_color-navy_zoom{
+    color: #20113D;
+}
+
+.btn_color-navy_zoom:hover{
+    transform: scale(1.2);
+}
+
 .btn_bg-orange {
     background: #f58021;
 }
