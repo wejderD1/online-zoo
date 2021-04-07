@@ -16,7 +16,8 @@ body {
 .donation__inner,
 .card__container,
 .pay__item,
-.footer__item {
+.footer__item, 
+.contacts__inner {
     display: flex;
     align-items: center;
 }

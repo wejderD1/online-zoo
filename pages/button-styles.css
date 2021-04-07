@@ -52,6 +52,10 @@
     background: #00a092;
 }
 
+.btn_bg-turquise:hover{
+    background: #05786E;
+}
+
 .btn_bg-transparent {
     background: transparent;
 }

@@ -1,0 +1,35 @@
+.contacts_subtitle{
+    padding: 50px 120px 0 0;
+}
+
+.contacts__inner{
+    margin: 150px 0;
+    align-items: flex-start;
+}
+
+.contacts_body-text::before {
+    display: inline-block;
+    content: "*";
+    color: rgb(12, 185, 185);
+    padding-right: 5px;
+}
+
+.contacts_body-text{
+    margin-bottom: 10px;
+}
+
+.contacts_input {
+    width: 680px;
+    height: 60px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contacts_text-area{
+    height: 200px;
+}
