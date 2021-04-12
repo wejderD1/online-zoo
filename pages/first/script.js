@@ -1,3 +1,10 @@
-var arrow = document.querySelectorAll(".arrow")
+var el = document.querySelector(".quit");
+var wind = document.querySelector(".pop-up")
 
-console.log(arrow);
+el.addEventListener( "click" , () => {
+    console.log(wind.setAttribute("hidden", true));
+});
+
+window.addEventListener("load", (e)=>{
+    setTimeout(wind.removeAttribute("hidden"), 5000)
+})
