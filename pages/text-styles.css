@@ -98,3 +98,15 @@
     margin: 0 auto;
 
 }
+
+
+.contacts_body-text::before {
+    display: inline-block;
+    content: "*";
+    color: rgb(12, 185, 185);
+    padding-right: 5px;
+}
+
+.contacts_body-text{
+    margin-bottom: 10px;
+}

@@ -60,10 +60,23 @@
     background: transparent;
 }
 
+.btn_not-active{
+    opacity: .5;
+}
+
+.btn_not-active:hover{
+    pointer-events:none;
+}
+
 /* BUTTON-SIZE */
 .btn_60{
     width: 60px;
     height: 60px;
+}
+
+.btn_32{
+    width: 32px;
+    height: 65px;
 }
 
 .btn_80{
@@ -88,6 +101,10 @@
 
 .btn_320{
     width: 320px;
+}
+
+.btn_height_65{
+    height: 65px;
 }
 
 /* BUTTON BORDER */
